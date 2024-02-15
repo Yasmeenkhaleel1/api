@@ -1,0 +1,32 @@
+.elements{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+.product{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 30%;
+    border: 2px ;
+    border-radius: 30px;
+    border-color: blue;
+
+}
+h2{
+    display: flex;
+    align-items: flex-start;
+    color: brown;
+}
+p{
+    display: flex;
+    color: brown;
+    align-items: end;
+}
